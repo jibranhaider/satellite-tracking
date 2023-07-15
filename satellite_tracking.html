@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Map</title>
+
+    <link rel="shortcut icon" href="#">
+
+    <!-- Leaflet CSS file -->
+    <link
+        rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+        crossorigin=""/>
+
+    <!-- Leaflet JavaScript file -->
+    <script
+        src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+        crossorigin="">
+    </script>
+
+    <!-- Add stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <!-- Bottom bar -->
+    <div class="bottombar">
+        <button id="iss_tracking_button" class="button" onclick="setSatelliteTrackingStatus()">
+        </button>
+    </div>
+
+    <!-- Main script -->
+    <script src="main.js"></script>
+
+</body>
+</html>

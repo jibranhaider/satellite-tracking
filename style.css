@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.bottombar {
+    float: bottom;
+    height: 6%;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+}
+
+.button {
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 10px;
+}
+
+button:hover {
+    color: yellow;
+}
+
+#map {
+    float: top;
+    height: 94%;
+    width: 100%;
+}
